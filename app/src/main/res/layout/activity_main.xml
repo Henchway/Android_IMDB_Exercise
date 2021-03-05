@@ -74,7 +74,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    tools:text="@tools:sample/cities" />
+                    tools:text="@tools:sample/lorem" />
 
                 <RatingBar
                     android:id="@+id/ratingBar"
@@ -101,7 +101,8 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintHorizontal_chainStyle="packed"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/movie_label" />
+                    app:layout_constraintTop_toBottomOf="@+id/movie_label"
+                    tools:text="@tools:sample/lorem" />
 
                 <TextView
                     android:id="@+id/creators_label"
@@ -131,7 +132,7 @@
                     android:text="@{movie.creators}"
                     app:layout_constraintBaseline_toBaselineOf="@+id/creators_label"
                     app:layout_constraintStart_toEndOf="@+id/creators_label"
-                    tools:text="@tools:sample/lorem" />
+                    tools:text="@tools:sample/last_names" />
 
                 <TextView
                     android:id="@+id/actors_text"
@@ -141,7 +142,7 @@
                     android:text="@{movie.actors}"
                     app:layout_constraintBaseline_toBaselineOf="@+id/actors_label"
                     app:layout_constraintStart_toEndOf="@+id/actors_label"
-                    tools:text="@tools:sample/lorem" />
+                    tools:text="@tools:sample/last_names" />
 
                 <TextView
                     android:id="@+id/story_text"
@@ -159,7 +160,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/story_label"
                     app:layout_constraintVertical_bias="0.0"
-                    tools:text="@tools:sample/lorem" />
+                    tools:text="@tools:sample/lorem/random" />
 
                 <TextView
                     android:id="@+id/story_label"
