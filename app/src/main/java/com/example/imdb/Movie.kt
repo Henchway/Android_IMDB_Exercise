@@ -1,5 +1,7 @@
 package com.example.imdb
 
+// Currently configured as immutable (val)
+
 data class Movie(
     val title: String="",
     val description: String="",
