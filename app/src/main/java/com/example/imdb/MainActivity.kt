@@ -20,9 +20,10 @@ class MainActivity : AppCompatActivity() {
                 "who lauded Taylor-Joy's performance as well as the cinematography and production values. It has also received a positive response from the " +
                 "chess community, and data suggests that it has increased public interest in the game.[2][3]  The series won two Golden Globe Awards: Best " +
                 "Limited Series or Television Film and Best Actress – Miniseries or Television Film for Taylor-Joy. She was also nominated for the Critics' " +
-                "Choice Television Award for Best Actress in a Movie/Miniseries and the Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Miniseries or Television Movie.\n",
+                "Choice Television Award for Best Actress in a Movie/Miniseries and the Screen Actors Guild Award for Outstanding Performance by a Female Actor in " +
+                "a Miniseries or Television Movie.\n",
         rating = 4.3f,
-        genres = listOf("drama"),
+        genres = listOf("drama", "sport"),
         creators = listOf("Scott Frank", "Alan Scott"),
         actors = listOf("Anya Taylor-Joy", "Chloe Pirrie")
     )
