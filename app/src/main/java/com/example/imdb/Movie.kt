@@ -7,7 +7,6 @@ import androidx.databinding.BindingAdapter
 
 @BindingAdapter("android:text")
 fun setText(view: TextView, list: List<String>) {
-
     view.text = list.joinToString(", ")
 }
 
