@@ -3,6 +3,6 @@
     <string name="creators_label">Creators:</string>
     <string name="actors_label">Actors:</string>
     <string name="story">Story</string>
-    <string name="queens_gambit_picture">Picture of Bath Harmon.</string>
+    <string name="queens_gambit_picture">Picture of Beth Harmon.</string>
     <string name="floating_button_description">Sends a toast message</string>
 </resources>

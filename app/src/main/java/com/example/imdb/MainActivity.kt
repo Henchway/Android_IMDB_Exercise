@@ -21,10 +21,10 @@ class MainActivity : AppCompatActivity() {
                 "chess community, and data suggests that it has increased public interest in the game.[2][3]  The series won two Golden Globe Awards: Best " +
                 "Limited Series or Television Film and Best Actress – Miniseries or Television Film for Taylor-Joy. She was also nominated for the Critics' " +
                 "Choice Television Award for Best Actress in a Movie/Miniseries and the Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Miniseries or Television Movie.\n",
-        rating = 4.0f,
-        genres = "drama",
-        creators = "Scott Frank, Alan Scott",
-        actors = "Anya Taylor-Joy, Chloe Pirrie"
+        rating = 4.3f,
+        genres = listOf("drama"),
+        creators = listOf("Scott Frank", "Alan Scott"),
+        actors = listOf("Anya Taylor-Joy", "Chloe Pirrie")
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

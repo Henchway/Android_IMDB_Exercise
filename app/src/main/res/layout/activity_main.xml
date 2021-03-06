@@ -16,6 +16,7 @@
         android:id="@+id/contraint_layout_parent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/black"
         tools:context=".MainActivity">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -28,7 +29,7 @@
             android:contentDescription="@string/floating_button_description"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat="@drawable/ic_launcher_background" />
+            app:srcCompat="@android:drawable/ic_input_add" />
 
         <ImageView
             android:id="@+id/movie_picture"
@@ -70,6 +71,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:text="@{movie.title}"
+                    android:textColor="@color/white"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +86,7 @@
                     android:layout_marginTop="16dp"
                     android:numStars="5"
                     android:rating="@{movie.rating}"
-                    android:stepSize="0.5"
+                    android:stepSize="0.1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/tags_text"
@@ -97,6 +99,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:text="@{movie.genres}"
+                    android:textColor="@color/yellow"
                     app:layout_constraintEnd_toStartOf="@+id/ratingBar"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintHorizontal_chainStyle="packed"
@@ -111,6 +114,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/creators_label"
+                    android:textColor="@color/white"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/tags_text" />
 
@@ -121,6 +125,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/actors_label"
+                    android:textColor="@color/white"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/creators_label" />
 
@@ -130,6 +135,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="@{movie.creators}"
+                    android:textColor="@color/yellow"
                     app:layout_constraintBaseline_toBaselineOf="@+id/creators_label"
                     app:layout_constraintStart_toEndOf="@+id/creators_label"
                     tools:text="@tools:sample/last_names" />
@@ -140,6 +146,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="@{movie.actors}"
+                    android:textColor="@color/yellow"
                     app:layout_constraintBaseline_toBaselineOf="@+id/actors_label"
                     app:layout_constraintStart_toEndOf="@+id/actors_label"
                     tools:text="@tools:sample/last_names" />
@@ -153,6 +160,7 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="16dp"
                     android:text="@{movie.description}"
+                    android:textColor="@color/white"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -169,6 +177,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="30dp"
                     android:text="@string/story"
+                    android:textColor="@color/white"
                     android:textSize="20sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/actors_label" />
