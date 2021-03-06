@@ -24,7 +24,7 @@ data class Movie(
     val title: String = "",
     val description: String = "",
     val rating: Float = 0.0f,
-    val genres: List<String>?,
+    val genres: List<String>? = null,
     val creators: List<String> = emptyList(),
     val actors: List<String> = emptyList()
 
